@@ -1,0 +1,55 @@
+object MainFrm: TMainFrm
+  Left = 444
+  Height = 563
+  Top = 221
+  Width = 905
+  Caption = 'rcloneGui'
+  ClientHeight = 563
+  ClientWidth = 905
+  LCLVersion = '2.0.4.0'
+  object TreeView1: TTreeView
+    Left = 0
+    Height = 531
+    Top = 32
+    Width = 297
+    Align = alLeft
+    TabOrder = 0
+  end
+  object StringGrid1: TStringGrid
+    Left = 297
+    Height = 531
+    Top = 32
+    Width = 608
+    Align = alClient
+    FixedCols = 0
+    TabOrder = 1
+  end
+  object CoolBar1: TCoolBar
+    Left = 0
+    Height = 32
+    Top = 0
+    Width = 905
+    Bands = <    
+      item
+        Control = ToolBar1
+      end>
+    object ToolBar1: TToolBar
+      AnchorSideLeft.Control = CoolBar1
+      AnchorSideTop.Control = CoolBar1
+      Left = 24
+      Height = 24
+      Top = 5
+      Width = 151
+      Align = alNone
+      BorderSpacing.Left = 22
+      BorderSpacing.Top = 3
+      Caption = 'ToolBar1'
+      TabOrder = 0
+      object ToolButton1: TToolButton
+        Left = 1
+        Top = 2
+        Caption = 'ToolButton1'
+      end
+    end
+  end
+end

@@ -1,0 +1,36 @@
+object MainFrm: TMainFrm
+  Left = 444
+  Height = 563
+  Top = 221
+  Width = 905
+  Caption = 'rcloneGui'
+  ClientHeight = 563
+  ClientWidth = 905
+  LCLVersion = '2.0.4.0'
+  object TreeView1: TTreeView
+    Left = 0
+    Height = 523
+    Top = 40
+    Width = 297
+    Align = alLeft
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 40
+    Top = 0
+    Width = 905
+    Align = alTop
+    Caption = 'Panel1'
+    TabOrder = 1
+  end
+  object StringGrid1: TStringGrid
+    Left = 297
+    Height = 523
+    Top = 40
+    Width = 608
+    Align = alClient
+    FixedCols = 0
+    TabOrder = 2
+  end
+end
