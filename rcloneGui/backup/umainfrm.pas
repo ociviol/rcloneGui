@@ -13,8 +13,10 @@ type
   { TMainFrm }
 
   TMainFrm = class(TForm)
-    Panel1: TPanel;
+    CoolBar1: TCoolBar;
     StringGrid1: TStringGrid;
+    ToolBar1: TToolBar;
+    ToolButton1: TToolButton;
     TreeView1: TTreeView;
   private
 

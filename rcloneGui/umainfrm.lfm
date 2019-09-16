@@ -1,12 +1,12 @@
 object MainFrm: TMainFrm
-  Left = 444
+  Left = 271
   Height = 563
-  Top = 221
+  Top = 125
   Width = 905
   Caption = 'rcloneGui'
   ClientHeight = 563
   ClientWidth = 905
-  LCLVersion = '2.0.4.0'
+  LCLVersion = '2.1.0.0'
   object TreeView1: TTreeView
     Left = 0
     Height = 531
