@@ -68,3 +68,5 @@ __recovery/
 rcloneGui/lib/x86_64-darwin/rcloneGuiOsx.or
 rcloneGui/lib/x86_64-darwin/rcloneGuiOsx.res
 rcloneGui/lib/x86_64-darwin/umainfrm.lfm
+/rcloneGui/lib/x86_64-linux/*
+/rcloneGui/rcloneGuiLinux
